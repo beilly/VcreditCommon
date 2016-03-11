@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">common</string>
+
+    <string name="net_error_check">网络错误</string>
+    <string name="net_error_timeout">网络连接超时</string>
+    <string name="net_error_noConnection">网络未连接</string>
+    <string name="net_error_ununited">未知错误</string>
+    <string name="net_error_login_timeout">登录超时</string>
+</resources>
