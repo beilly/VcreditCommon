@@ -1,4 +1,4 @@
-package com.vcredit.common.utils;
+package com.benli.common.utils;
 
 import android.app.Activity;
 import android.app.AlertDialog;

@@ -1,4 +1,4 @@
-package com.vcredit.common;
+package com.benli.common;
 
 import org.junit.Test;
 

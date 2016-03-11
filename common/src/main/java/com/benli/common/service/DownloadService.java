@@ -1,4 +1,4 @@
-package com.vcredit.common.service;
+package com.benli.common.service;
 
 import android.annotation.SuppressLint;
 import android.app.DownloadManager;
@@ -13,8 +13,8 @@ import android.os.Environment;
 import android.os.IBinder;
 import android.webkit.MimeTypeMap;
 
-import com.vcredit.common.base.BaseApp;
-import com.vcredit.common.utils.CommonUtils;
+import com.benli.common.base.BaseApp;
+import com.benli.common.utils.CommonUtils;
 
 /**
  * 下载服务

@@ -1,11 +1,11 @@
-package com.vcredit.common.utils.net;
+package com.benli.common.utils.net;
 
 import android.content.Context;
 import android.widget.Toast;
 
 import com.android.volley.Response;
-import com.vcredit.common.R;
-import com.vcredit.common.utils.CommonUtils;
+import com.benli.common.R;
+import com.benli.common.utils.CommonUtils;
 
 import org.json.JSONObject;
 

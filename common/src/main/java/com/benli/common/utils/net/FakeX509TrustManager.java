@@ -1,4 +1,4 @@
-package com.vcredit.common.utils.net;
+package com.benli.common.utils.net;
 
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;

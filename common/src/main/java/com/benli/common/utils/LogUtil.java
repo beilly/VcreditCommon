@@ -1,11 +1,11 @@
 
-package com.vcredit.common.utils;
+package com.benli.common.utils;
 
 import org.apache.commons.lang3.ArrayUtils;
 
 import android.util.Log;
 
-import com.vcredit.common.BuildConfig;
+import com.benli.common.BuildConfig;
 
 /**
  * 日志工具

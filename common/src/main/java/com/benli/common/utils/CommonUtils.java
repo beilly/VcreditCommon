@@ -1,4 +1,4 @@
-package com.vcredit.common.utils;
+package com.benli.common.utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,8 +11,8 @@ import android.telephony.TelephonyManager;
 import android.util.DisplayMetrics;
 import android.util.Log;
 
-import com.vcredit.common.service.DownloadService;
-import com.vcredit.common.base.BaseApp;
+import com.benli.common.service.DownloadService;
+import com.benli.common.base.BaseApp;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

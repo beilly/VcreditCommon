@@ -1,4 +1,4 @@
-package com.vcredit.common.utils;
+package com.benli.common.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -7,15 +7,15 @@ import android.widget.Toast;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
-import com.vcredit.common.R;
-import com.vcredit.common.utils.net.FakeX509TrustManager;
-import com.vcredit.common.utils.net.GetJsonRequest;
-import com.vcredit.common.utils.net.IMErrorListenr;
-import com.vcredit.common.utils.net.IMJsonListener;
-import com.vcredit.common.utils.net.JsonRequestListener;
-import com.vcredit.common.utils.net.MultipartRequest;
-import com.vcredit.common.utils.net.PostJsonRequest;
-import com.vcredit.common.utils.net.RequestListener;
+import com.benli.common.R;
+import com.benli.common.utils.net.FakeX509TrustManager;
+import com.benli.common.utils.net.GetJsonRequest;
+import com.benli.common.utils.net.IMErrorListenr;
+import com.benli.common.utils.net.IMJsonListener;
+import com.benli.common.utils.net.JsonRequestListener;
+import com.benli.common.utils.net.MultipartRequest;
+import com.benli.common.utils.net.PostJsonRequest;
+import com.benli.common.utils.net.RequestListener;
 
 import org.json.JSONObject;
 

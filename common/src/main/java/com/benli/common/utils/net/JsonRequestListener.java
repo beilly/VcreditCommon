@@ -1,8 +1,8 @@
-package com.vcredit.common.utils.net;
+package com.benli.common.utils.net;
 
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.vcredit.common.utils.CommonUtils;
+import com.benli.common.utils.CommonUtils;
 
 import org.json.JSONObject;
 

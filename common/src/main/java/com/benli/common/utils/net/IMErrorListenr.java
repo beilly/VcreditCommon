@@ -1,4 +1,4 @@
-package com.vcredit.common.utils.net;
+package com.benli.common.utils.net;
 
 import android.content.res.Resources;
 
@@ -6,9 +6,9 @@ import com.android.volley.NoConnectionError;
 import com.android.volley.Response.ErrorListener;
 import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
-import com.vcredit.common.R;
-import com.vcredit.common.base.BaseApp;
-import com.vcredit.common.utils.CommonUtils;
+import com.benli.common.R;
+import com.benli.common.base.BaseApp;
+import com.benli.common.utils.CommonUtils;
 
 /**
  * 响应监听类，对错误返回进行处理（ErrorListener子类）

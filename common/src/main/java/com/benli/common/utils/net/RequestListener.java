@@ -1,4 +1,4 @@
-package com.vcredit.common.utils.net;
+package com.benli.common.utils.net;
 
 /**
  * 响应监听类（负责Response返回后针对业务对象进行逻辑处理）

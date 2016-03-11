@@ -1,4 +1,4 @@
-package com.vcredit.common.utils.net;
+package com.benli.common.utils.net;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.DefaultRetryPolicy;
@@ -7,9 +7,9 @@ import com.android.volley.Response;
 import com.android.volley.Response.ErrorListener;
 import com.android.volley.Response.Listener;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.vcredit.common.base.BaseApp;
-import com.vcredit.common.utils.CommonUtils;
-import com.vcredit.common.utils.HttpUtil;
+import com.benli.common.base.BaseApp;
+import com.benli.common.utils.CommonUtils;
+import com.benli.common.utils.HttpUtil;
 
 import org.json.JSONObject;
 

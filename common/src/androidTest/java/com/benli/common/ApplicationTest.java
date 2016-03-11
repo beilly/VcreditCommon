@@ -1,4 +1,4 @@
-package com.vcredit.common;
+package com.benli.common;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

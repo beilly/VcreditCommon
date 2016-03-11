@@ -1,8 +1,8 @@
-package com.vcredit.common.base;
+package com.benli.common.base;
 
 import android.support.multidex.MultiDexApplication;
 
-import com.vcredit.common.BuildConfig;
+import com.benli.common.BuildConfig;
 
 /**
  * Created by shibenli on 2016/3/8.
