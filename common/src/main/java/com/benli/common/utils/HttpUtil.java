@@ -144,12 +144,13 @@ public class HttpUtil {
         JsonRequestListener jsonRequestListener = new JsonRequestListener(requestListener);
 
         // 加入请求队列
-        Request<JSONObject> request = queue.add(new MultipartRequest(url,
+        MultipartRequest mr = new MultipartRequest(url,
                 jsonRequestListener, jsonRequestListener,
                 files,
                 parms
-        ));
-        request.setShouldCache(false);
+        );
+        mr.setShouldCache(false);
+        Request<JSONObject> request = queue.add(mr);
 
         // 为请求添加context标记
         request.setTag(context);
