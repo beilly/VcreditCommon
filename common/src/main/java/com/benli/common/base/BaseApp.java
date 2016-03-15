@@ -3,6 +3,11 @@ package com.benli.common.base;
 import android.support.multidex.MultiDexApplication;
 
 import com.benli.common.BuildConfig;
+import com.benli.common.R;
+import com.benli.common.utils.StorageUtils;
+import com.litesuits.common.io.FilenameUtils;
+
+import java.io.File;
 
 /**
  * Created by shibenli on 2016/3/8.
@@ -26,7 +31,10 @@ public class BaseApp extends MultiDexApplication {
     }
 
     public  String getFilePath(){
-        return getApplicationInfo().name;
+        File file = StorageUtils.getOwnCacheDirectory(this, getString(R.string.app_name));
+        if (file == null)
+            file = getFilesDir();
+        return file.getAbsolutePath();
     }
 
     public  String getEncoding(){

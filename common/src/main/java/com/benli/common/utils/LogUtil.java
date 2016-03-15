@@ -112,33 +112,33 @@ public class LogUtil {
     private static final int EXCEPTION_STACK_INDEX = 2;
 
 
-    public static void verbose(String msg) {
+    public static void verbose(String... msg) {
         if (Log.VERBOSE >= LOG_LEVEL) {
-            Log.v(getTag(), msg);
+            v(getTag(), msg);
         }
     }
 
-    public static void debug(String msg) {
+    public static void debug(String... msg) {
         if (Log.DEBUG >= LOG_LEVEL) {
-            Log.d(getTag(), msg);
+            d(getTag(), msg);
         }
     }
 
-    public static void info(String msg) {
+    public static void info(String... msg) {
         if (Log.INFO >= LOG_LEVEL) {
-            Log.i(getTag(), msg);
+            i(getTag(), msg);
         }
     }
 
-    public static void warn(String msg) {
+    public static void warn(String... msg) {
         if (Log.WARN >= LOG_LEVEL) {
-            Log.w(getTag(), msg);
+            w(getTag(), msg);
         }
     }
 
-    public static void error(String msg) {
+    public static void error(String... msg) {
         if (Log.ERROR >= LOG_LEVEL) {
-            Log.e(getTag(), msg);
+            e(getTag(), msg);
         }
     }
 
