@@ -27,16 +27,19 @@ import java.util.Map;
 public class HttpUtil {
 
     /** 请求队列 */
-    private RequestQueue queue;
+    protected RequestQueue queue;
     /** 上下文对象 */
-    private Context context;
+    protected Context context;
     /** 是否显示进度条 */
     public static boolean isOpenProgressbar = true;
     /** 会话识别号 */
     public static String sessionId;
 
-    /*** 构造函数*/
-    private HttpUtil(Context context) {
+    /**
+     * 构造函数
+     * @param context
+     */
+    protected HttpUtil(Context context) {
         queue = Volley.newRequestQueue(context);
         //设置允许所有的SSL验证，使用https自带的SSL加密逻辑
         FakeX509TrustManager.allowAllSSL();
@@ -44,7 +47,7 @@ public class HttpUtil {
         isOpenProgressbar = true;
     }
 
-    private static HttpUtil httpUtil;
+    protected static HttpUtil httpUtil;
 
     public static HttpUtil getInstance(Context context){
         if(httpUtil == null) {
